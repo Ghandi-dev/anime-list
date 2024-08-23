@@ -1,7 +1,7 @@
 import { Orbitron } from "next/font/google";
 import "./globals.css";
-import Navbar from "../components/Utilities/Navbar";
-import ScrollToTop from "@/components/Utilities/ScrollToTop.js";
+import Navbar from "../components/Navbar";
+import ScrollToTop from "@/components/Utilities/ScrollToTop";
 
 const orbitron = Orbitron({ subsets: ["latin"] });
 
