@@ -2,7 +2,7 @@ import AnimeList from "@/components/AnimeList";
 import Header from "@/components/AnimeList/Header";
 
 const Page = async () => {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/top/anime?limit=8`);
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_BASE_URL}/top/anime`);
   const topAnime = await res.json();
 
   return (
