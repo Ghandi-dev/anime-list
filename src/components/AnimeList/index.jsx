@@ -25,7 +25,7 @@ const AnimeList = ({ api, animeName }) => {
       </div>
     );
   };
-  return api.data.length > 0 ? <List /> : <NotFound />;
+  return api.data?.length > 0 ? <List /> : <NotFound />;
 };
 
 export default AnimeList;
