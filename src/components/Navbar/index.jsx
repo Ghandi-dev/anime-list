@@ -1,5 +1,6 @@
 import Link from "next/link";
 import InputSearch from "./InputSearch";
+import UserActionButton from "./UserActionButton";
 const Navbar = () => {
   return (
     <header className="bg-color-accent">
@@ -8,6 +9,7 @@ const Navbar = () => {
           ANIMELIST
         </Link>
         <InputSearch />
+        <UserActionButton />
       </div>
     </header>
   );
